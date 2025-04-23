@@ -3,3 +3,11 @@ fslinstaller.py
 /first_results
 /logs
 /freesurfer_results
+/thickness_output
+/freesurfer_license
+/fmri_processed
+/fastsurfer_output
+/nilearn_cache
+/rs_analysis
+data_verification_output.txt
+fmri_data_summary.txt

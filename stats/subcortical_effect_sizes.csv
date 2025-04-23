@@ -1,0 +1,10 @@
+structure,structure_name,pigd_hc_p,pigd_hc_effect,tdpd_hc_p,tdpd_hc_effect,hc_mean,pigd_mean,tdpd_mean,pigd_hc_sig,tdpd_hc_sig
+L_Thal,Left Thalamus,,0.0,1.0,0,10472.0,10472.0,10472.0,False,False
+R_Thal,Right Thalamus,,0.0,1.0,0,10176.0,10176.0,10176.0,False,False
+L_Caud,Left Caudate,,0.0,1.0,0,3944.0,3944.0,3944.0,False,False
+R_Caud,Right Caudate,,0.0,1.0,0,4136.0,4136.0,4136.0,False,False
+L_Pall,Left Pallidum,,0.0,1.0,0,2168.0,2168.0,2168.0,False,False
+R_Pall,Right Pallidum,,0.0,1.0,0,2136.0,2136.0,2136.0,False,False
+L_Putamen,Left Putamen,,0.0,1.0,0,6440.0,6440.0,6440.0,False,False
+R_Putamen,Right Putamen,,0.0,1.0,0,6392.0,6392.0,6392.0,False,False
+BrStem,Brain Stem,,0.0,1.0,0,38304.0,38304.0,38304.0,False,False

@@ -1,0 +1,200 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Cortical Thickness Analysis Report</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                color: #333;
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+            h1 {
+                color: #2C7BB6;
+                border-bottom: 2px solid #2C7BB6;
+                padding-bottom: 10px;
+            }
+            h2 {
+                color: #D7191C;
+                margin-top: 30px;
+            }
+            .section {
+                margin-bottom: 40px;
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                margin: 20px 0;
+            }
+            .image-container {
+                text-align: center;
+            }
+            .caption {
+                font-style: italic;
+                margin-top: 5px;
+                color: #666;
+            }
+            .interactive-link {
+                display: block;
+                margin: 20px 0;
+                padding: 10px;
+                background-color: #f5f5f5;
+                border-radius: 5px;
+                text-decoration: none;
+                color: #2C7BB6;
+                font-weight: bold;
+            }
+            .interactive-link:hover {
+                background-color: #e0e0e0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Cortical Thickness Analysis Report</h1>
+        
+        <div class="section">
+            <h2>Brain Region Visualizations</h2>
+            <p>These visualizations show the distribution of cortical thickness across different brain regions.</p>
+            
+            <div class="image-container">
+                <img src="brain_regions_thickness_map.png" alt="Brain Regions Thickness Map">
+                <p class="caption">Brain regions colored by cortical thickness.</p>
+            </div>
+            
+            <div class="image-container">
+                <img src="glass_brain_regions.png" alt="Glass Brain Regions">
+                <p class="caption">Glass brain visualization of cortical regions.</p>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Group Comparison Analysis</h2>
+            <p>These visualizations compare cortical thickness across the three subject groups: HC (Healthy Controls), PIGD (Postural Instability and Gait Disorder), and TDPD (Tremor-Dominant Parkinson's Disease).</p>
+            
+            <div class="image-container">
+                <img src="group_thickness_boxplot.png" alt="Group Thickness Boxplot">
+                <p class="caption">Distribution of cortical thickness by group.</p>
+            </div>
+            
+            <div class="image-container">
+                <img src="group_region_thickness_heatmap.png" alt="Group Region Thickness Heatmap">
+                <p class="caption">Heatmap of regional thickness by group.</p>
+            </div>
+            
+            <div class="image-container">
+                <img src="top_regions_group_comparison.png" alt="Top Regions Group Comparison">
+                <p class="caption">Top regions with greatest differences between groups.</p>
+            </div>
+            
+            <div class="image-container">
+                <img src="significant_regions_comparison.png" alt="Significant Regions Comparison">
+                <p class="caption">Regions with statistically significant group differences.</p>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Functional Region Profiles</h2>
+            <p>These visualizations show thickness profiles across different functional brain regions.</p>
+            
+            <div class="image-container">
+                <img src="Motor_regions_radar.png" alt="Motor Regions Radar">
+                <p class="caption">Thickness profile of motor regions across groups.</p>
+            </div>
+            
+            <div class="image-container">
+                <img src="Cognitive_regions_radar.png" alt="Cognitive Regions Radar">
+                <p class="caption">Thickness profile of cognitive regions across groups.</p>
+            </div>
+            
+            <div class="image-container">
+                <img src="Limbic_regions_radar.png" alt="Limbic Regions Radar">
+                <p class="caption">Thickness profile of limbic regions across groups.</p>
+            </div>
+            
+            <div class="image-container">
+                <img src="Visual_regions_radar.png" alt="Visual Regions Radar">
+                <p class="caption">Thickness profile of visual regions across groups.</p>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Individual Subject Analysis</h2>
+            <p>These visualizations show thickness patterns for individual subjects and how they cluster together.</p>
+            
+            <div class="image-container">
+                <img src="subject_pca_clustering.png" alt="Subject PCA Clustering">
+                <p class="caption">PCA clustering of subjects based on thickness profiles.</p>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Hemisphere Comparison</h2>
+            <p>These visualizations compare thickness between left and right hemispheres.</p>
+            
+            <div class="image-container">
+                <img src="hemisphere_comparison.png" alt="Hemisphere Comparison">
+                <p class="caption">Comparison of thickness between left and right hemispheres by group.</p>
+            </div>
+            
+            <div class="image-container">
+                <img src="hemisphere_asymmetry.png" alt="Hemisphere Asymmetry">
+                <p class="caption">Hemispheric asymmetry by group.</p>
+            </div>
+            
+            <div class="image-container">
+                <img src="top_asymmetry_regions.png" alt="Top Asymmetry Regions">
+                <p class="caption">Regions with greatest hemispheric asymmetry.</p>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Network Analysis</h2>
+            <p>These visualizations show network relationships between different brain regions based on thickness correlations.</p>
+            
+            <div class="image-container">
+                <img src="thickness_correlation_matrix.png" alt="Thickness Correlation Matrix">
+                <p class="caption">Correlation matrix of regional thickness.</p>
+            </div>
+            
+            <div class="image-container">
+                <img src="HC_correlation_matrix.png" alt="HC Correlation Matrix">
+                <p class="caption">Correlation matrix for HC group.</p>
+            </div>
+            
+            <div class="image-container">
+                <img src="PIGD_correlation_matrix.png" alt="PIGD Correlation Matrix">
+                <p class="caption">Correlation matrix for PIGD group.</p>
+            </div>
+            
+            <div class="image-container">
+                <img src="TDPD_correlation_matrix.png" alt="TDPD Correlation Matrix">
+                <p class="caption">Correlation matrix for TDPD group.</p>
+            </div>
+            
+            <div class="image-container">
+                <img src="top_positive_correlations.png" alt="Top Positive Correlations">
+                <p class="caption">Top positive correlations between regions.</p>
+            </div>
+            
+            <div class="image-container">
+                <img src="top_negative_correlations.png" alt="Top Negative Correlations">
+                <p class="caption">Top negative correlations between regions.</p>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Interactive Visualizations</h2>
+            <p>Click the links below to open interactive visualizations in your web browser.</p>
+            
+            <a href="interactive_boxplot.html" class="interactive-link">Interactive Regional Thickness Boxplot</a>
+            <a href="interactive_3d_pca.html" class="interactive-link">Interactive 3D PCA of Thickness Profiles</a>
+            <a href="interactive_heatmap.html" class="interactive-link">Interactive Regional Thickness Heatmap</a>
+        </div>
+    </body>
+    </html>
+    

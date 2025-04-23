@@ -11,7 +11,7 @@ DATASET_DIR="/mnt/data_NIMHANS"
 OUTPUT_DIR="/mnt/c/Users/Pesankar/OneDrive/Documents/GitHub/YOPD_Motor_Subtype"
 
 # Set the last processed subject
-LAST_PROCESSED="sub-YLOPDHC17"
+LAST_PROCESSED="sub-YLOPD82"
 CONTINUE_PROCESSING=false
 
 # Loop through all subjects
