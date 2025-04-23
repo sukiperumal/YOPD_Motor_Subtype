@@ -11,3 +11,6 @@ fslinstaller.py
 /rs_analysis
 data_verification_output.txt
 fmri_data_summary.txt
+/ml_results
+/reports
+/rs_results

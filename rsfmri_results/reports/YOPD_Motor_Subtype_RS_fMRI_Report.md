@@ -1,6 +1,6 @@
 # Resting-State fMRI Analysis of YOPD Motor Subtypes
 
-**Generated on:** 2025-04-23 15:05:28
+**Generated on:** 2025-04-23 17:40:30
 
 ## Project Overview
 
@@ -64,9 +64,27 @@ This report summarizes the analysis of resting-state functional MRI data for You
 
 ## Interpretation
 
+Analysis was performed on 6 subjects total:
+- 2 Healthy Controls (HC)
+- 0 Postural Instability and Gait Difficulty (PIGD) subtype patients
+- 0 Tremor Dominant (TDPD) subtype patients
+
+The analysis focused on the functional connectivity differences between the motor subtypes of Young-Onset Parkinson's Disease. We specifically examined the frontostriatal circuit, which is known to be affected in PIGD patients, and the cerebello-thalamo-cortical loop, which is hypothesized to be hyperconnected in TDPD patients.
+
+The results did not show significant differences between the groups, which could be due to several reasons:
+
+1. The preprocessing pipeline may need further optimization for this specific dataset
+2. The sample size may be insufficient to detect subtle connectivity differences
+3. The hypothesized network differences may be more complex than our current analysis can detect
+
+Future analysis should consider:
+
+1. Using more advanced connectivity measures such as dynamic connectivity analysis
+2. Incorporating structural connectivity information (DTI)
+3. Including clinical measures as covariates to account for disease severity
+
 
 
 ## Conclusion
 
 This analysis provides insights into the differential functional connectivity patterns between PIGD and TDPD motor subtypes of Young-Onset Parkinson's Disease. The results help clarify the neurobiological basis of clinical heterogeneity in PD and may guide future development of subtype-specific interventions.
-

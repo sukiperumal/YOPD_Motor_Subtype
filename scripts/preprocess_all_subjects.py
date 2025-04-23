@@ -110,9 +110,11 @@ def preprocess_subject(subject_id, group, force=False):
         # Create a temporary script that preprocesses just this subject
         temp_script = PROJECT_DIR / f"temp_preprocess_{subject_id}.py"
         with open(temp_script, 'w') as f:
+            # Use raw string or replace backslashes with forward slashes for Python paths
+            scripts_dir_path = str(SCRIPTS_DIR).replace('\\', '/')
             f.write(f"""#!/usr/bin/env python3
 import sys
-sys.path.append('{str(SCRIPTS_DIR)}')
+sys.path.append(r'{scripts_dir_path}')
 from preprocess_fmri import preprocess_subject
 result = preprocess_subject('{subject_id}', '{group}')
 sys.exit(0 if result else 1)
